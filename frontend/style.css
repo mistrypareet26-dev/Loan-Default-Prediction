@@ -1,0 +1,281 @@
+ * {
+    margin: 5px 5px 5px 5px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #F1F3FB;
+
+}
+
+.head-panel {
+    min-height: 100px;
+
+    background-color: #3659CA;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+
+    color : white;
+
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    overflow: hidden;
+
+    margin: 13px 20px 17px 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+ 
+}
+
+.head-panel h1 {
+    margin: 13px 0 5px 4px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+
+.content {
+    display: flex;
+}
+
+.applicant-info {
+    min-height: 600px;
+    width: 1150px;
+
+    background-color:  #FBFBFD;
+
+    border-radius: 10px;
+
+    padding-top: 5px;
+
+    color: black;
+
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-head {
+    display: flex;
+}
+
+.form-head i {
+    font-size: 30px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 20px;
+}
+
+.details-part1 {
+    width: 525px;
+}
+
+.details1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.details1 input:hover,
+.details1 select:hover {
+    transform: scale(1.02);
+    border-color: #c8cad0;
+}
+
+.details1 label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E1535;
+}
+
+.details1 input {
+    min-height: 40px;
+    width: 100%;
+    padding: 0 14px;
+    border: 1px solid #c8cad0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #0E1535;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.details1 select {
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #c8cad0;
+    border-radius: 5px;
+    color: #0E1535;
+    background-color: #ffffff;
+    padding: 0 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.details-part2 {
+    width: 525px;
+}
+
+.details2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.details2 input:hover,
+.details2 select:hover {
+    transform: scale(1.02);
+    border-color: #c8cad0;
+}
+
+.details2 label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E1535;
+}
+
+.details2 input {
+    min-height: 40px;
+    width: 100%;
+    padding: 0 14px;
+    border: 1px solid #c8cad0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #0E1535;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.details2 select {
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #c8cad0;
+    border-radius: 5px;
+    color: #0E1535;
+    background-color: #ffffff;
+    padding: 0 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.predict-btn {
+    margin-top: 25px;
+    width: 150px;
+    height: 46px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #3F65DA;
+    color: #FFFFFF;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.predict-btn:hover {
+    background-color: #2E4FBB;
+    
+}
+
+.predict-btn {
+    display: block;
+    margin: 25px 0 0 auto;
+
+}
+
+.predict-btn:hover {
+    transform: scale(1.02);
+    background-color: #2E4FBB;
+}
+
+
+.result {
+    min-height: 600px;
+    width: 500px;
+    
+    background-color:  #FBFBFD;
+
+    border-radius: 10px;
+
+    padding-top: 5px;
+
+    margin-top: 15px;
+
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.result-head {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.prediction-result {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.result-para1 {
+    font-size: 20px;
+}
+
+
+/* result display after prediction */
+
+.prediction-output {
+    min-height: 100%;
+    min-width: 100%;
+
+    border-radius: 25px;
+
+  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.prediction-para {
+    font: 15px;
+}
+
