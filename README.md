@@ -103,10 +103,13 @@ Loan Default Prediction/
 │   ├── model.pkl
 │   └── accepted_2007_to_2018Q4.csv.gz   # not included, see Dataset section below
 │
+├── screenshots/
+│   ├── home_page.png
+│   └── prediction_result.png
+│
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
@@ -175,3 +178,4 @@ The trained model (`ml/model.pkl`) predicts loan default risk based on applicant
 
 ### Prediction Result
 ![Prediction Result](screenshots/prediction_result.png)
+
