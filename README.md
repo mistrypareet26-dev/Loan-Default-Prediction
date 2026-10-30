@@ -74,6 +74,8 @@ The model also provides an estimated **default probability**, which is used with
 ### Model
 
 - Logistic Regression
+- Random Forest
+- GradientBoosting Classifier
 - Scikit-learn Pipeline
 - One-Hot Encoding
 - Ordinal Encoding
